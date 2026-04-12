@@ -1,0 +1,22 @@
+table{
+    border: 2px solid black;
+    border-spacing: 2px;
+    display: table;
+    
+}
+
+img{
+    width: 100px;
+    height:100px;
+    justify-items: initial;
+}
+th{
+    background-color: #6E6E6E;
+    color: white;
+    border-width: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
