@@ -1,0 +1,24 @@
+.container{
+    display: grid; /* Define o elemento como um grid container */
+    grid-template-columns: 100px 100px; /* Define as colunas do grid */
+    border: 1px solid black; /* Adiciona uma borda ao container */
+    width: 200px; /* Define a largura do container */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 1reng; /* Define o espaçamento entre os itens do grid */
+}
+.titulo{
+    background-color:#6E6E6E; /* Define a cor de fundo para os títulos */
+    color: white; /* Define a cor do texto para os títulos */
+    grid-template-columns: 1fr 1fr; /* Define as colunas para os títulos */;
+    grid-template-columns: max-content min-content; /* Define as colunas para os títulos com base no conteúdo */
+}
+.carro{
+    background-color: #CCFFFF; /* Define a cor de fundo para os itens da classe carro */
+    color: black; /* Define a cor do texto para os itens da classe carro */
+    border: 1px solid black; /* Adiciona uma borda aos itens da classe carro */
+}
+.consumo{
+    background-color: #98FF98; /* Define a cor de fundo para os itens da classe consumo */
+    color: black; /* Define a cor do texto para os itens da classe consumo */
+    border: 1px solid black; /* Adiciona uma borda aos itens da classe consumo */
+}
