@@ -1,51 +1,51 @@
 .container{
-    display: grid;
-    border: 2px solid black;
-    font-size: 18px;
-    width: 400px;
+    display: grid;// Define o container como um grid
+    border: 2px solid black;// Adiciona uma borda ao redor do container
+    font-size: 18px;// Ajuste o tamanho da fonte conforme necessário
+    width: 400px;   // Ajuste a largura conforme necessário
     
 }
 .resultado {
     display: grid;
-    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 2fr;
-    align-items: center;
-    padding: 8px 12px;
+    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 2fr;// Define as colunas do grid, com a coluna do meio (gol) sendo menor
+    align-items: center;// Alinha os itens verticalmente ao centro
+    padding: 8px 12px;// Adiciona um pouco de preenchimento para melhor espaçamento
     gap: 6px 0;
 }
 
 .time.direita {
-    text-align: right;
+    text-align: right;// Alinha o texto à direita
     padding-right: 12px;
 }
 
 .time.esquerda {
-    text-align: left;
-    padding-left: 12px;
+    text-align: left;// Alinha o texto à esquerda
+    padding-left: 12px;// Adiciona preenchimento à esquerda para melhor espaçamento
 }
 
 .gol {
-    text-align: center;
+    text-align: center;// Alinha o texto ao centro
 }
 
 .x {
-    text-align: center;
-    color: #aaa;
+    text-align: center;// Alinha o texto ao centro
+    color: #aaa; // Cor cinza para o "x"
 }
 .azul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    padding: 6px;
-    font-size: 14px;
+    display: grid;// Define o elemento como um grid
+    grid-template-columns: 1fr 1fr;// Define duas colunas de largura igual
+    background-color: darkblue;         // Define a cor de fundo como azul escuro
+    color: white;  // Define a cor do texto como branco
+    text-align: center;// Alinha o texto ao centro
+    padding: 6px;// Adiciona preenchimento para melhor espaçamento
+    font-size: 14px;// Ajuste o tamanho da fonte conforme necessário
 }
 .verde {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: darkgreen;
-    color: white;
-    text-align: center;
-    padding: 6px;
-    font-size: 14px;
+    display: grid;// Define o elemento como um grid
+    grid-template-columns: 1fr 1fr;// Define duas colunas de largura igual
+    background-color: darkgreen;// Define a cor de fundo como verde escuro
+    color: white;// Define a cor do texto como branco
+    text-align: center;// Alinha o texto ao centro
+    padding: 6px;// Adiciona preenchimento para melhor espaçamento
+    font-size: 14px;    // Ajuste o tamanho da fonte conforme necessário
 }
